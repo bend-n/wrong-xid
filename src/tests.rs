@@ -93,3 +93,8 @@ fn test_is_not_xid_continue() {
         assert!(!super::UnicodeXID::is_xid_continue(ch), "{}", ch);
     }
 }
+
+#[test]
+fn krab() {
+	assert!(super::UnicodeXID::is_xid_start('🦀'))
+}
