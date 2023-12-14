@@ -1486,6 +1486,7 @@ pub mod derived_property {
         ('\u{2f800}', '\u{2fa1d}'),
         ('\u{30000}', '\u{3134a}'),
         ('\u{31350}', '\u{323af}'),
+        ('\u{1f600}', '\u{1f64f}'),
     ];
 
     pub fn XID_Start(c: char) -> bool {
